@@ -16,18 +16,21 @@ public class BudgetCalculatorProject
         double savedAmount = monthlySalary * SAVINGS_PERCENT;
         System.out.println(savedAmount); 
 
-
-        System.out.println(name + "rentAmount"); 
-        System.out.println(name + "groceriesAmount");
-        System.out.println(name + "entertainmentAmount");
+        double rentAmount = monthlySalary * RENT_PERCENT;
+        System.out.println("rentAmount: " + rentAmount); 
+        double groceriesAmount = monthlySalary * GROCERIES_PERCENT;
+        System.out.println("groceriesAmount: ");
+        double totalExpenses = rentAmount + grocerieAmount + ENTERTAINMENT_PERCENT;
+        System.out.println("entertainmentAmount: ");
 
         
+        /*
         savedAmount= 0.20;
         rentAmount = 0.30; 
         groceriesAmount= 0.15;
         entertainmentAmount = 0.10;
 
-        /*
+        
         int  monthlySalary; (a)= 3000.0;
         int  savedAmount; (b)= 0.20;
         int  rentAmount; (c)= 0.10; 

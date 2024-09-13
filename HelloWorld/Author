@@ -1,0 +1,57 @@
+public class Author
+{
+    //Class Attributes
+    public name;
+    public email;
+    public nationality;
+
+    //Default Constructor
+    public Author()
+    {
+        name='Tim';
+        email='Timothysmith@yahoo.com';
+        nationality='American';
+    }
+
+    public Author(String name)
+    {
+        this.name=name;
+
+    }
+    public class Book
+   {
+    //Book Attributes
+    public title;
+    public price;
+    public Author object;
+   }
+
+   // Default Constructor
+   title='How To Sail A Boat';
+   final double price='27.95';
+   author object='Book';
+
+   public Book(String title, String price, String author object)
+   {
+    this.title= title;
+    this.price=price;
+    this.author object= author object;
+   }
+public class main 
+{
+author object;
+book object=author object;
+
+System.out.println(name + "Tim");
+System.out.println(email + "Timothysmith@yahoo.com");
+System.out.println(nationality + "American");
+}
+
+System.out.println(title + "How To Sail A Boat");
+System.out.println(price + "27.95");
+System.out.println(author object + "Book");
+}
+
+
+
+}
