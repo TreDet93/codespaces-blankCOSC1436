@@ -21,16 +21,21 @@ public class Author {
     
   }
 public class Book{
-public String title;
-public String price;
-public String twitter;
+  public String title;
+  public String price;
+  public String twitter;
+
 }
+
 public String title(){
     return this.title="How To Sail A Boat";
 }
+
 public String price(){
-    return this.price="27.95";
+  double "27.95";
+  
 }
+
     public String authorObject(){
         return this.twitter="@ExplorerKing";
     }
@@ -40,11 +45,9 @@ public class main Method(){
 }
 
 }
-  
+  System.out.println();{
     
-  
-
-
+  }
 
 
 
