@@ -1,0 +1,19 @@
+public class ArraysExample
+{
+    public static void main (String [] args)
+    {
+        int arrLength = 16;
+        int [] myArray = new int[arrLength];
+        for(int i = 0;<arrlength; i++)
+        {
+            myArray[i] = (int)(Math.random() * arrLength);
+        }
+        printArray(myArray);
+    }
+
+    public static void bubbleSort(int[] arr) {
+        int n = arr.Length;
+        for (int i = 0; i <)
+    }
+}
+    
