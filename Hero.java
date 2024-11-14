@@ -2,7 +2,7 @@ public class Hero{
     public String name;
     public int powerLevel;
     enum Affiliation{
-        justiceLeague
+        JUSTICELEAGUE
     }
     public Student(String name, int powerLevel, Affiliation affiliation)
     {
