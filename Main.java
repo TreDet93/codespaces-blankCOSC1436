@@ -18,8 +18,8 @@ public class Main{
         heroManager.insertionSort();
         heroManager.printHeroes();
 
-        heroManager.removeHero("Iron-man");
-        System.out.println("\nAfter removing Batman:");
+        heroManager.removeHero("Superman");
+        System.out.println("\nAfter removing Superman:");
         heroManager.printHeroes();
 
         heroManager.addHero(new Hero("Flash", 88, Affiliation.JUSTICELEAGUE));
